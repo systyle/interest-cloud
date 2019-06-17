@@ -1,0 +1,133 @@
+2019-06-17 15:33:20.605  INFO 32688 --- [main] c.i.message.InterestMessageApplication   : The following profiles are active: prod
+2019-06-17 15:33:23.146  INFO 32688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 15:33:23.152  INFO 32688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 15:33:23.201  INFO 32688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-06-17 15:33:23.520  WARN 32688 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-17 15:33:24.067  INFO 32688 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d2dcce7a-f314-3ac5-9d66-ccecbc0a262e
+2019-06-17 15:33:24.169  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.interest.common.feign.InterestBbsFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.171  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.interest.common.feign.InterestBlogFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.173  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.interest.common.feign.InterestMessageFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.176  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.interest.common.feign.InterestUserFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.364  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$66ad0d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.438  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9f189911] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.450  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.457  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2fb48970' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.465  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c3ed3bc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.469  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:24.503  INFO 32688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2284d3d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 15:33:25.179  INFO 32688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-06-17 15:33:25.239  INFO 32688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-17 15:33:25.239  INFO 32688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-17 15:33:25.273  INFO 32688 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sunhao.lc\product\11.2.0\client_1;%JAVA_HOME%\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Program Files (x86)\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Users\sunhao.lc\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_112\bin;D:\Program Files\apache-maven-3.6.0\bin;C:\Users\sunhao.lc\AppData\Roaming\npm;.]
+2019-06-17 15:33:25.517  INFO 32688 --- [main] o.a.c.c.C.[.[.[/interest/message]        : Initializing Spring embedded WebApplicationContext
+2019-06-17 15:33:25.517 DEBUG 32688 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-06-17 15:33:25.519  INFO 32688 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4896 ms
+2019-06-17 15:33:25.672  WARN 32688 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-17 15:33:25.672  INFO 32688 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-17 15:33:25.686  INFO 32688 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2de7c84a
+2019-06-17 15:33:27.678  INFO 32688 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-06-17 15:33:28.293 DEBUG 32688 --- [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2019-06-17 15:33:28.605 DEBUG 32688 --- [main] .PrePostAnnotationSecurityMetadataSource : @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_SUPER_ADMIN','ROLE_BASE_ADMIN')) found on specific method: public com.interest.common.model.ResponseWrapper com.interest.message.controller.EmailController.deleteEmails(java.util.List)
+2019-06-17 15:33:28.618 DEBUG 32688 --- [main] m.DelegatingMethodSecurityMetadataSource : Caching method [CacheKey[com.interest.message.controller.EmailController; public com.interest.common.model.ResponseWrapper com.interest.message.controller.EmailController.deleteEmails(java.util.List)]] with attributes [[authorize: 'hasAnyRole('ROLE_SUPER_ADMIN','ROLE_BASE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2019-06-17 15:33:28.630 DEBUG 32688 --- [main] o.s.s.a.i.a.MethodSecurityInterceptor    : Validated configuration attributes
+2019-06-17 15:33:28.635 DEBUG 32688 --- [main] .PrePostAnnotationSecurityMetadataSource : @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_SUPER_ADMIN','ROLE_BASE_ADMIN')) found on specific method: public com.interest.common.model.ResponseWrapper com.interest.message.controller.EmailController.getEmailsList(int,int)
+2019-06-17 15:33:28.635 DEBUG 32688 --- [main] m.DelegatingMethodSecurityMetadataSource : Caching method [CacheKey[com.interest.message.controller.EmailController; public com.interest.common.model.ResponseWrapper com.interest.message.controller.EmailController.getEmailsList(int,int)]] with attributes [[authorize: 'hasAnyRole('ROLE_SUPER_ADMIN','ROLE_BASE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2019-06-17 15:33:28.928  INFO 32688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2019-06-17 15:33:29.177 DEBUG 32688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2019-06-17 15:33:29.264  INFO 32688 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-17 15:33:29.377  INFO 32688 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-17 15:33:29.473  WARN 32688 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-17 15:33:29.473  INFO 32688 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-17 15:33:29.559 DEBUG 32688 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-06-17 15:33:29.708 DEBUG 32688 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-06-17 15:33:29.752 DEBUG 32688 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-06-17 15:33:29.765 DEBUG 32688 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-06-17 15:33:29.982  INFO 32688 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Starting...
+2019-06-17 15:33:30.139  INFO 32688 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Start completed.
+2019-06-17 15:33:30.837  INFO 32688 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM interest_message.DATABASECHANGELOGLOCK
+2019-06-17 15:33:30.852  INFO 32688 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM interest_message.DATABASECHANGELOGLOCK
+2019-06-17 15:33:30.854  INFO 32688 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT `LOCKED` FROM interest_message.DATABASECHANGELOGLOCK WHERE ID=1
+2019-06-17 15:33:30.867  INFO 32688 --- [main] l.lockservice.StandardLockService        : Successfully acquired change log lock
+2019-06-17 15:33:32.508  INFO 32688 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT MD5SUM FROM interest_message.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2019-06-17 15:33:32.517  INFO 32688 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM interest_message.DATABASECHANGELOG
+2019-06-17 15:33:32.520  INFO 32688 --- [main] l.c.StandardChangeLogHistoryService      : Reading from interest_message.DATABASECHANGELOG
+2019-06-17 15:33:32.520  INFO 32688 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT * FROM interest_message.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2019-06-17 15:33:32.548  INFO 32688 --- [main] l.lockservice.StandardLockService        : Successfully released change log lock
+2019-06-17 15:33:32.696 DEBUG 32688 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {myResourceServerConfigurerAdapter=com.interest.message.oauth2.MyResourceServerConfigurerAdapter$$EnhancerBySpringCGLIB$$e74379cd@391e2a, org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration$$EnhancerBySpringCGLIB$$23f9fb0c@46e32574}
+2019-06-17 15:33:32.723  INFO 32688 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 83e6243c-3a3b-401e-8cc1-a3d10d8c283d
+
+2019-06-17 15:33:33.249 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/public/**']
+2019-06-17 15:33:33.254 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpg']
+2019-06-17 15:33:33.255 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.png']
+2019-06-17 15:33:33.256 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpeg']
+2019-06-17 15:33:33.256 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/interest/**']
+2019-06-17 15:33:33.256 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.html']
+2019-06-17 15:33:33.257 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.css']
+2019-06-17 15:33:33.258 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.js']
+2019-06-17 15:33:33.258 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/swagger-resources/**']
+2019-06-17 15:33:33.258 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.woff2']
+2019-06-17 15:33:33.258 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/v2/**']
+2019-06-17 15:33:33.258 DEBUG 32688 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-06-17 15:33:33.262 DEBUG 32688 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-06-17 15:33:33.263 DEBUG 32688 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-06-17 15:33:33.268  INFO 32688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@140449d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cd886b7, org.springframework.security.web.header.HeaderWriterFilter@3ea95f79, org.springframework.security.web.authentication.logout.LogoutFilter@5860e4c3, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@21132086, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@551fefe8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25058759, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@748015f8, org.springframework.security.web.session.SessionManagementFilter@3b870ed3, org.springframework.security.web.access.ExceptionTranslationFilter@1c11a496, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4537c9f8]
+2019-06-17 15:33:35.653  INFO 32688 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-06-17 15:33:35.984  INFO 32688 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-17 15:33:36.058  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-17 15:33:36.721  INFO 32688 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-17 15:33:36.722  INFO 32688 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-17 15:33:37.025  INFO 32688 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-17 15:33:37.025  INFO 32688 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-17 15:33:37.374  INFO 32688 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 15:33:37.722  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-17 15:33:37.722  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-17 15:33:37.725  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-17 15:33:37.725  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-17 15:33:37.725  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-17 15:33:37.725  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-17 15:33:37.725  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-17 15:33:37.989  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-17 15:33:37.994  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-17 15:33:37.996  INFO 32688 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-17 15:33:38.003  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1560756818001 with initial instances count: 6
+2019-06-17 15:33:38.010  INFO 32688 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application INTEREST-MESSAGE with eureka with status UP
+2019-06-17 15:33:38.010  INFO 32688 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1560756818010, current=UP, previous=STARTING]
+2019-06-17 15:33:38.013  INFO 32688 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-17 15:33:38.013  INFO 32688 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INTEREST-MESSAGE/localhost:interest-message:8086: registering service...
+2019-06-17 15:33:38.041  INFO 32688 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-17 15:33:38.069  INFO 32688 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INTEREST-MESSAGE/localhost:interest-message:8086 - registration status: 204
+2019-06-17 15:33:38.091  INFO 32688 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-17 15:33:38.290  INFO 32688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path '/interest/message'
+2019-06-17 15:33:38.290  INFO 32688 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8086
+2019-06-17 15:33:38.292  INFO 32688 --- [main] c.i.message.InterestMessageApplication   : Started InterestMessageApplication in 22.171 seconds (JVM running for 23.609)
+2019-06-17 15:33:38.989  INFO 32688 --- [RMI TCP Connection(5)-10.0.75.1] o.a.c.c.C.[.[.[/interest/message]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-17 15:33:38.989  INFO 32688 --- [RMI TCP Connection(5)-10.0.75.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-17 15:33:38.989 DEBUG 32688 --- [RMI TCP Connection(5)-10.0.75.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-06-17 15:33:39.006 DEBUG 32688 --- [RMI TCP Connection(5)-10.0.75.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-06-17 15:33:39.006  INFO 32688 --- [RMI TCP Connection(5)-10.0.75.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-06-17 15:33:39.174  INFO 32688 --- [RMI TCP Connection(4)-10.0.75.1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-06-17 15:33:39.176  INFO 32688 --- [RMI TCP Connection(4)-10.0.75.1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-06-17 15:38:37.729  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 15:43:37.737  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 15:48:37.747  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 15:53:37.754  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 15:58:37.761  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 16:03:37.775  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 16:08:37.782  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 16:13:37.787  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 16:18:37.782  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 16:23:37.779  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 16:28:37.779  INFO 32688 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-17 16:31:25.607  INFO 32688 --- [Thread-48] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application INTEREST-MESSAGE with eureka with status DOWN
+2019-06-17 16:31:25.608  WARN 32688 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1560760285608, current=DOWN, previous=UP]
+2019-06-17 16:31:25.609  INFO 32688 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INTEREST-MESSAGE/localhost:interest-message:8086: registering service...
+2019-06-17 16:31:25.624  INFO 32688 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INTEREST-MESSAGE/localhost:interest-message:8086 - registration status: 204
+2019-06-17 16:31:25.660  INFO 32688 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+2019-06-17 16:31:26.821  INFO 32688 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-06-17 16:31:29.822  INFO 32688 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-06-17 16:31:29.831  INFO 32688 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INTEREST-MESSAGE/localhost:interest-message:8086 - deregister  status: 200
+2019-06-17 16:31:29.842  INFO 32688 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-06-17 16:31:29.843  INFO 32688 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Shutdown initiated...
+2019-06-17 16:31:29.848  INFO 32688 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Shutdown completed.
