@@ -26,7 +26,7 @@ public class MyTimingTask {
 	public void updateViewTime() {
         Set<String> list = stringRedisTemplate.keys("article_*");
         if(!CollectionUtils.isEmpty(list)){
-            log.info("delete article sign in redis");
+            log.debug("delete article sign in redis");
             stringRedisTemplate.delete(list);
         }
 	}
