@@ -69,7 +69,7 @@ spring:
     base-url: http://localhost:8762
   sleuth:
     sampler:
-      percentage: 1.0
+      rate: 1
   profiles: dev
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/interest_message?useUnicode=true&createDatabaseIfNotExist=true&characterEncoding=UTF-8&useSSL=false&jdbcCompliantTruncation=false&serverTimezone=Hongkong
