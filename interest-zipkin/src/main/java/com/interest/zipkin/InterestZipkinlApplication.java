@@ -9,6 +9,7 @@ import zipkin.server.internal.EnableZipkinServer;
 @EnableZipkinServer
 public class InterestZipkinlApplication {
 
+    //testideapush
     public static void main(String[] args) {
         SpringApplication.run(InterestZipkinlApplication.class, args);
     }
