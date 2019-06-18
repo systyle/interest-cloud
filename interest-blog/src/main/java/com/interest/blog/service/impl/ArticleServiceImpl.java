@@ -12,6 +12,7 @@ import com.interest.common.enums.ResponseStatus;
 import com.interest.common.feign.InterestUserFeign;
 import com.interest.common.model.PageResult;
 import com.interest.common.model.PageWrapper;
+import com.interest.common.model.ResponseWrapper;
 import com.interest.common.model.response.UserHeadInfoVO;
 import com.interest.common.utils.DateUtil;
 import com.interest.common.utils.SecurityAuthenUtil;
@@ -23,6 +24,9 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.util.Date;
 import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -84,7 +88,15 @@ public class ArticleServiceImpl implements ArticleService {
 
         Boolean articleSign = stringRedisTemplate.hasKey("article_" + userId);
         if (articleSign != null && articleSign) {
-            throw new ArticleException(ResponseStatus.FAIL_6001.getValue(), ResponseStatus.FAIL_6001.getReasonPhrase());
+            ResponseWrapper<UserHeadInfoVO> usersHeadInfoById = interestUserFeign.getUsersHeadInfoById(userId);
+            if(null!=usersHeadInfoById){
+                UserHeadInfoVO userHeadInfoVO= usersHeadInfoById.getData();
+                //管理员发文章不受限制
+               if(!"admin".equals(userHeadInfoVO.getUserName())){
+                   throw new ArticleException(ResponseStatus.FAIL_6001.getValue(), ResponseStatus.FAIL_6001.getReasonPhrase());
+
+               }
+            }
         }
 
         ArticleEntity articleEntity = new ArticleEntity();
@@ -101,8 +113,10 @@ public class ArticleServiceImpl implements ArticleService {
         articleEntity.setInfo(info);
 
         articleDao.insertArticle(articleEntity);
-
+        //追加字符串
         stringRedisTemplate.opsForValue().append("article_" + userId, "1");
+
+
     }
 
     /**
