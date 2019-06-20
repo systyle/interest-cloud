@@ -71,6 +71,7 @@ spring:
     sampler:
       rate: 1
   profiles: dev
+
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/interest_message?useUnicode=true&createDatabaseIfNotExist=true&characterEncoding=UTF-8&useSSL=false&jdbcCompliantTruncation=false&serverTimezone=Hongkong
     username: root

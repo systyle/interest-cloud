@@ -14,8 +14,11 @@ spring:
 ---
 #development environment
 spring:
-  zipkin:
-    base-url: http://localhost:8762
+  rabbitmq:
+    host: 192.168.17.11
+    port: 5672
+    username: admin
+    password: admin
   sleuth:
     sampler:
       rate: 1
